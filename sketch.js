@@ -59,7 +59,7 @@ function preload()
 
 function setup() 
 {
-  var mobile=/iPhone|iPad|iPod|Android/i.test(navigator.useragent)
+  var mobile=/iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   
   if (mobile){
 canW=displayWidth
